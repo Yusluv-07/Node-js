@@ -1,15 +1,15 @@
 {
-  "name": "mini-app",
+  "name": "node-mini-app",
   "version": "1.0.0",
+  "description": "A simple Node.js mini app deployed on Vercel",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["node", "express", "vercel"],
+  "author": "Yusluv-07",
+  "license": "MIT",
   "dependencies": {
     "express": "^5.1.0"
   }
